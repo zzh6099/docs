@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>选项 | Toolkit Docs</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    
+    <meta name="description" content="">
+    
+    <link rel="preload" href="/docs/assets/css/0.styles.61c225ce.css" as="style"><link rel="preload" href="/docs/assets/js/app.bf9abde5.js" as="script"><link rel="preload" href="/docs/assets/js/2.7081bd21.js" as="script"><link rel="preload" href="/docs/assets/js/10.17413e17.js" as="script"><link rel="prefetch" href="/docs/assets/js/11.3ba4e15f.js"><link rel="prefetch" href="/docs/assets/js/12.81f60ba6.js"><link rel="prefetch" href="/docs/assets/js/13.3fc83587.js"><link rel="prefetch" href="/docs/assets/js/3.d04f4a97.js"><link rel="prefetch" href="/docs/assets/js/4.61cab350.js"><link rel="prefetch" href="/docs/assets/js/5.37fc0b0c.js"><link rel="prefetch" href="/docs/assets/js/6.063b7e44.js"><link rel="prefetch" href="/docs/assets/js/7.2d382900.js"><link rel="prefetch" href="/docs/assets/js/8.6c1f93ed.js"><link rel="prefetch" href="/docs/assets/js/9.9b30310a.js">
+    <link rel="stylesheet" href="/docs/assets/css/0.styles.61c225ce.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/docs/" class="home-link router-link-active"><!----> <span class="site-name">Toolkit Docs</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/docs/" class="nav-link">
+  框架文档
+</a></div><div class="nav-item"><a href="/docs/other.html" class="nav-link">
+  toolkit 工具库
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/docs/" class="nav-link">
+  框架文档
+</a></div><div class="nav-item"><a href="/docs/other.html" class="nav-link">
+  toolkit 工具库
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/docs/" aria-current="page" class="sidebar-link">介绍</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/docs/#键路径" class="sidebar-link">键路径</a></li></ul></li><li><a href="/docs/options.html" aria-current="page" class="active sidebar-link">选项</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/docs/options.html#dom" class="sidebar-link">DOM</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/docs/options.html#el" class="sidebar-link">el</a></li><li class="sidebar-sub-header"><a href="/docs/options.html#template" class="sidebar-link">template</a></li></ul></li><li class="sidebar-sub-header"><a href="/docs/options.html#数据" class="sidebar-link">数据</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/docs/options.html#data" class="sidebar-link">data</a></li><li class="sidebar-sub-header"><a href="/docs/options.html#props" class="sidebar-link">props</a></li><li class="sidebar-sub-header"><a href="/docs/options.html#computed" class="sidebar-link">computed</a></li><li class="sidebar-sub-header"><a href="/docs/options.html#methods" class="sidebar-link">methods</a></li><li class="sidebar-sub-header"><a href="/docs/options.html#watch" class="sidebar-link">watch</a></li><li class="sidebar-sub-header"><a href="/docs/options.html#emits" class="sidebar-link">emits</a></li><li class="sidebar-sub-header"><a href="/docs/options.html#store" class="sidebar-link">store</a></li></ul></li><li class="sidebar-sub-header"><a href="/docs/options.html#资源" class="sidebar-link">资源</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/docs/options.html#mixins" class="sidebar-link">mixins</a></li><li class="sidebar-sub-header"><a href="/docs/options.html#components" class="sidebar-link">components</a></li></ul></li><li class="sidebar-sub-header"><a href="/docs/options.html#生命周期钩子" class="sidebar-link">生命周期钩子</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/docs/options.html#beforemount" class="sidebar-link">beforeMount</a></li><li class="sidebar-sub-header"><a href="/docs/options.html#mounted" class="sidebar-link">mounted</a></li><li class="sidebar-sub-header"><a href="/docs/options.html#beforeupdate" class="sidebar-link">beforeUpdate</a></li><li class="sidebar-sub-header"><a href="/docs/options.html#updated" class="sidebar-link">updated</a></li><li class="sidebar-sub-header"><a href="/docs/options.html#beforeunmount" class="sidebar-link">beforeUnmount</a></li><li class="sidebar-sub-header"><a href="/docs/options.html#unmounted" class="sidebar-link">unmounted</a></li></ul></li><li class="sidebar-sub-header"><a href="/docs/options.html#其它选项" class="sidebar-link">其它选项</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/docs/options.html#inheritattrs" class="sidebar-link">inheritAttrs</a></li><li class="sidebar-sub-header"><a href="/docs/options.html#comments" class="sidebar-link">comments</a></li><li class="sidebar-sub-header"><a href="/docs/options.html#style" class="sidebar-link">style</a></li></ul></li></ul></li><li><a href="/docs/template.html" class="sidebar-link">模板</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/docs/template.html#语法" class="sidebar-link">语法</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/docs/template.html#绑定数据-文本插值" class="sidebar-link">绑定数据-文本插值</a></li><li class="sidebar-sub-header"><a href="/docs/template.html#绑定数据-动态属性" class="sidebar-link">绑定数据-动态属性</a></li><li class="sidebar-sub-header"><a href="/docs/template.html#class-与-style" class="sidebar-link">class 与 style</a></li></ul></li><li class="sidebar-sub-header"><a href="/docs/template.html#指令" class="sidebar-link">指令</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/docs/template.html#for" class="sidebar-link">$for</a></li><li class="sidebar-sub-header"><a href="/docs/template.html#if" class="sidebar-link">$if</a></li><li class="sidebar-sub-header"><a href="/docs/template.html#else-if" class="sidebar-link">$else-if</a></li><li class="sidebar-sub-header"><a href="/docs/template.html#else" class="sidebar-link">$else</a></li><li class="sidebar-sub-header"><a href="/docs/template.html#show" class="sidebar-link">$show</a></li><li class="sidebar-sub-header"><a href="/docs/template.html#bind" class="sidebar-link">$bind</a></li><li class="sidebar-sub-header"><a href="/docs/template.html#model" class="sidebar-link">$model</a></li><li class="sidebar-sub-header"><a href="/docs/template.html#ref" class="sidebar-link">$ref</a></li><li class="sidebar-sub-header"><a href="/docs/template.html#allow-html" class="sidebar-link">$allow-html</a></li><li class="sidebar-sub-header"><a href="/docs/template.html#once" class="sidebar-link">$once</a></li></ul></li><li class="sidebar-sub-header"><a href="/docs/template.html#特殊属性" class="sidebar-link">特殊属性</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/docs/template.html#key" class="sidebar-link">key</a></li></ul></li><li class="sidebar-sub-header"><a href="/docs/template.html#事件绑定" class="sidebar-link">事件绑定</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/docs/template.html#事件绑定符" class="sidebar-link">事件绑定符 “@”</a></li><li class="sidebar-sub-header"><a href="/docs/template.html#箭头函数" class="sidebar-link">箭头函数</a></li></ul></li><li class="sidebar-sub-header"><a href="/docs/template.html#内置元素" class="sidebar-link">内置元素</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/docs/template.html#block" class="sidebar-link">block</a></li><li class="sidebar-sub-header"><a href="/docs/template.html#slot" class="sidebar-link">slot</a></li><li class="sidebar-sub-header"><a href="/docs/template.html#transition" class="sidebar-link">transition</a></li></ul></li></ul></li><li><a href="/docs/instance.html" class="sidebar-link">实例方法/属性</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/docs/instance.html#方法" class="sidebar-link">方法</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/docs/instance.html#setdata" class="sidebar-link">$setData</a></li><li class="sidebar-sub-header"><a href="/docs/instance.html#emit" class="sidebar-link">$emit</a></li><li class="sidebar-sub-header"><a href="/docs/instance.html#watch" class="sidebar-link">$watch</a></li><li class="sidebar-sub-header"><a href="/docs/instance.html#mount" class="sidebar-link">$mount</a></li><li class="sidebar-sub-header"><a href="/docs/instance.html#destroy" class="sidebar-link">$destroy</a></li></ul></li><li class="sidebar-sub-header"><a href="/docs/instance.html#属性" class="sidebar-link">属性</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/docs/instance.html#refs" class="sidebar-link">$refs</a></li><li class="sidebar-sub-header"><a href="/docs/instance.html#attrs" class="sidebar-link">$attrs</a></li><li class="sidebar-sub-header"><a href="/docs/instance.html#el" class="sidebar-link">$el</a></li><li class="sidebar-sub-header"><a href="/docs/instance.html#parent" class="sidebar-link">$parent</a></li><li class="sidebar-sub-header"><a href="/docs/instance.html#store" class="sidebar-link">$store</a></li></ul></li></ul></li><li><a href="/docs/component.html" class="sidebar-link">组件</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/docs/component.html#介绍" class="sidebar-link">介绍</a></li><li class="sidebar-sub-header"><a href="/docs/component.html#注册局部组件" class="sidebar-link">注册局部组件</a></li><li class="sidebar-sub-header"><a href="/docs/component.html#注册全局组件" class="sidebar-link">注册全局组件</a></li><li class="sidebar-sub-header"><a href="/docs/component.html#组件库" class="sidebar-link">组件库</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/docs/component.html#导出组件" class="sidebar-link">导出组件</a></li><li class="sidebar-sub-header"><a href="/docs/component.html#导入组件" class="sidebar-link">导入组件</a></li></ul></li></ul></li><li><a href="/docs/store.html" class="sidebar-link">状态管理</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/docs/store.html#介绍" class="sidebar-link">介绍</a></li><li class="sidebar-sub-header"><a href="/docs/store.html#state" class="sidebar-link">state</a></li><li class="sidebar-sub-header"><a href="/docs/store.html#getters" class="sidebar-link">getters</a></li><li class="sidebar-sub-header"><a href="/docs/store.html#actions" class="sidebar-link">actions</a></li></ul></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="选项"><a href="#选项" class="header-anchor">#</a> 选项</h1> <h2 id="dom"><a href="#dom" class="header-anchor">#</a> DOM</h2> <h3 id="el"><a href="#el" class="header-anchor">#</a> el</h3> <ul><li><p><strong>类型</strong>：<code>string | Element</code></p></li> <li><p><strong>限制</strong>：只在创建根实例时生效。组件不需要该选项。</p></li> <li><p><strong>详细</strong>：</p> <p>该选项用于定义根实例的挂载目标。</p> <p>提供一个在页面上已存在的 DOM 元素，也可以是 CSS 选择器。可以用 <code>$el</code> 访问该挂载目标元素。</p></li></ul> <h3 id="template"><a href="#template" class="header-anchor">#</a> template</h3> <ul><li><p><strong>类型</strong>：<code>string</code></p></li> <li><p><strong>详细</strong>：</p> <p>该选项用于定义字符串模板。</p> <p>可以为 <code>template</code> 选项直接提供一个字符串模板。</p> <p>也可以为 <code>template</code> 选项提供一个 <code>#id</code>，并在 HTML 中使用 <code>&lt;script type=&quot;template&quot; id=&quot;xxx&quot;&gt;...&lt;/script&gt;</code> 来定义模板。</p> <p>模板生成的 DOM 将会插入挂载目标 <code>el</code> 元素中。</p> <p>模板支持多种渲染指令，事件绑定指令及内置的组件等，具体请查看<a href="/docs/template.html">模板</a>。</p> <p>模板支持多个根元素。</p></li> <li><p><strong>示例</strong>：</p> <p>直接提供一个字符串模板。推荐使用【Tab】缩进、【\】换行，提高模板可读性。</p> <div class="language-js extra-class"><pre class="language-js"><code>toolkit<span class="token punctuation">.</span><span class="token function">createApp</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    template<span class="token operator">:</span>
+      <span class="token string">'&lt;div&gt;\
+          根元素1\
+          &lt;div&gt;template&lt;/div&gt;\
+      &lt;/div&gt;\
+      &lt;div&gt;根元素2&lt;/div&gt;'</span><span class="token punctuation">,</span>
+    el<span class="token operator">:</span> <span class="token string">&quot;#app&quot;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div><p>提供一个 <code>#id</code>，并在 HTML 中提供一个字符串模板。</p> <div class="language-html extra-class"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>template<span class="token punctuation">&quot;</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>my-template<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+  <span class="token operator">&lt;</span>div<span class="token operator">&gt;</span>
+      根元素<span class="token number">1</span>
+      <span class="token operator">&lt;</span>div<span class="token operator">&gt;</span>template<span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">&gt;</span>
+  <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">&gt;</span>
+  <span class="token operator">&lt;</span>div<span class="token operator">&gt;</span>根元素<span class="token number">2</span><span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">&gt;</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><div class="language-js extra-class"><pre class="language-js"><code>toolkit<span class="token punctuation">.</span><span class="token function">createApp</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    template<span class="token operator">:</span> <span class="token string">&quot;#my-template&quot;</span><span class="token punctuation">,</span>
+    el<span class="token operator">:</span> <span class="token string">&quot;#app&quot;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div></li></ul> <h2 id="数据"><a href="#数据" class="header-anchor">#</a> 数据</h2> <div class="custom-block warning"><p class="custom-block-title">注意</p> <p>data、props、computed、methods 不能定义相同的名称。</p></div> <h3 id="data"><a href="#data" class="header-anchor">#</a> data</h3> <ul><li><p><strong>类型</strong>：<code>Function</code></p></li> <li><p><strong>详细</strong>：</p> <p>该选项用于定义数据对象。</p> <p><code>data</code> 是一个返回对象的函数。返回的对象必须是纯粹的对象 (含有零个或多个的 key/value 对)，浏览器 API 创建的原生对象，原型上的属性会被忽略。</p> <p>在创建实例之前，应该在 <code>data</code> 中声明所有实例用到的数据。</p> <p>函数的上下文对象 <code>this</code>，为组件实例对象，可以访问到 <code>props</code> 及状态管理工具 <code>store</code> 的数据。</p></li> <li><p><strong>示例</strong>：</p> <div class="language-js extra-class"><div class="highlight-lines"><br><br><br><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br><br><br><br><br><br><br><br><br></div><pre class="language-js"><code><span class="token keyword">function</span> <span class="token function">data_demo</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token punctuation">{</span>
+      template<span class="token operator">:</span> <span class="token string">'&lt;div&gt;{{ key }} {{ title }}&lt;/div&gt;'</span><span class="token punctuation">,</span>
+      <span class="token function-variable function">data</span><span class="token operator">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+          <span class="token keyword">return</span> <span class="token punctuation">{</span> 
+            key<span class="token operator">:</span> <span class="token keyword">this</span><span class="token punctuation">.</span>propKey <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">,</span>
+            title<span class="token operator">:</span> <span class="token string">&quot;&quot;</span>
+          <span class="token punctuation">}</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      props<span class="token operator">:</span> <span class="token punctuation">{</span>
+          propKey<span class="token operator">:</span> <span class="token punctuation">{</span>
+              type<span class="token operator">:</span> Number<span class="token punctuation">,</span>
+              required<span class="token operator">:</span> <span class="token boolean">true</span>
+          <span class="token punctuation">}</span>
+      <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div></li></ul> <h3 id="props"><a href="#props" class="header-anchor">#</a> props</h3> <ul><li><p><strong>类型</strong>：<code>Array&lt;string&gt; | Object</code></p></li> <li><p><strong>详细</strong>：</p> <p>该选项用于定义接收到的来自父组件的数据。</p> <p><code>props</code> 可以是简单的数组，或者使用对象，对象允许配置高级选项，如类型检测、自定义验证和设置默认值。</p> <p>你可以基于对象的语法使用以下选项：</p> <ul><li><code>type</code>：
+可以是下列原生构造函数中的一种：<code>String</code>、<code>Number</code>、<code>Boolean</code>、<code>Array</code>、<code>Object</code>、<code>Date</code>、<code>Function</code>、<code>Symbol</code>、任何自定义构造函数、或上述内容组成的数组。会检查一个 prop 是否是给定的类型，否则抛出警告。</li> <li><code>default</code>：<code>any</code><br>
+为该 prop 指定一个默认值。如果该 prop 没有被传入，则换做用这个值。</li> <li><code>required</code>：<code>Boolean</code><br>
+定义该 prop 是否是必填项。如果这个值为 “真” 且该 prop 没有被传入的，则一个控制台警告将会被抛出。</li> <li><code>validator</code>：<code>Function</code><br>
+自定义验证函数会将该 prop 的值作为唯一的参数代入。如果该函数返回一个 “假” 的值 (也就是验证失败)，一个控制台警告将会被抛出。</li></ul></li> <li><p><strong>示例</strong>：</p> <div class="language-js extra-class"><div class="highlight-lines"><br><br><br><br><div class="highlighted"> </div><br><br><br><br><br><br><br><br><br><br><div class="highlighted"> </div><br><div class="highlighted"> </div><br><br><br><div class="highlighted"> </div><br><br><br><br><div class="highlighted"> </div><br><br><br><br><br><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br><br><br><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br><br><br><br><br><br></div><pre class="language-js"><code><span class="token comment">// 简单语法</span>
+<span class="token keyword">function</span> <span class="token function">props_demo_simple</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token punctuation">{</span>
+    <span class="token operator">...</span>
+    props<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">'size'</span><span class="token punctuation">,</span> <span class="token string">'myMessage'</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token operator">...</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// 对象语法，提供验证</span>
+<span class="token keyword">function</span> <span class="token function">props_demo_advanced</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token punctuation">{</span>
+    <span class="token operator">...</span>
+    props<span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token comment">// 基础的类型检查 (`null` 和 `undefined` 会通过任何类型验证)</span>
+      propA<span class="token operator">:</span> Number<span class="token punctuation">,</span>
+      <span class="token comment">// 多个可能的类型</span>
+      propB<span class="token operator">:</span> <span class="token punctuation">[</span>String<span class="token punctuation">,</span> Number<span class="token punctuation">]</span><span class="token punctuation">,</span>
+      <span class="token comment">// 必填的字符串</span>
+      propC<span class="token operator">:</span> <span class="token punctuation">{</span>
+        type<span class="token operator">:</span> String<span class="token punctuation">,</span>
+        required<span class="token operator">:</span> <span class="token boolean">true</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token comment">// 带有默认值的数字</span>
+      propD<span class="token operator">:</span> <span class="token punctuation">{</span>
+        type<span class="token operator">:</span> Number<span class="token punctuation">,</span>
+        <span class="token keyword">default</span><span class="token operator">:</span> <span class="token number">100</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token comment">// 带有默认值的对象</span>
+      propE<span class="token operator">:</span> <span class="token punctuation">{</span>
+        type<span class="token operator">:</span> Object<span class="token punctuation">,</span>
+        <span class="token comment">// 对象或数组默认值必须从一个工厂函数获取</span>
+        <span class="token function-variable function">default</span><span class="token operator">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+          <span class="token keyword">return</span> <span class="token punctuation">{</span> message<span class="token operator">:</span> <span class="token string">'hello'</span> <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token comment">// 自定义验证函数</span>
+      propF<span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token function-variable function">validator</span><span class="token operator">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">value</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+          <span class="token comment">// 这个值必须匹配下列字符串中的一个</span>
+          <span class="token keyword">return</span> <span class="token punctuation">[</span><span class="token string">'success'</span><span class="token punctuation">,</span> <span class="token string">'warning'</span><span class="token punctuation">,</span> <span class="token string">'danger'</span><span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token function">indexOf</span><span class="token punctuation">(</span>value<span class="token punctuation">)</span> <span class="token operator">!==</span> <span class="token operator">-</span><span class="token number">1</span>
+        <span class="token punctuation">}</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token operator">...</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div></li></ul> <h3 id="computed"><a href="#computed" class="header-anchor">#</a> computed</h3> <ul><li><p><strong>类型</strong>：<code>{ [key: string]: Function }</code></p></li> <li><p><strong>详细</strong>：</p> <p>该选项用于定义计算属性。</p> <p>模板内的表达式非常便利，但是设计它们的初衷是用于简单运算的。在模板中放入太多的逻辑会让模板过重且难以维护。例如：</p> <div class="language-html extra-class"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>example<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+  {{ message.split('').reverse().join('') }}
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><p>在这个地方，模板不再是简单的声明式逻辑。你必须看一段时间才能意识到，这里是想要显示变量 <code>message</code> 的翻转字符串。当你想要在模板中的多处包含此翻转字符串时，就会更加难以处理。</p> <p>所以，对于任何复杂逻辑，你都应当使用<strong>计算属性</strong>。</p> <p>计算属性的结果会被缓存，除非依赖的数据变化才会重新计算。</p> <p>计算属性将被混入到实例中，可以像 <code>data</code> 选项中的属性那样使用，除了<strong>不能</strong>用 <code>$setData</code> 修改。</p></li> <li><p><strong>示例</strong>：</p> <div data-info="mydemo%20%5Bparser%5D%20%5Bheight%3D180%5D" data-type="parser" class="docs-demo-plugin__wrapper"><div class="docs-demo-plugin__code"><div class="language-js extra-class"><div class="highlight-lines"><br><br><br><br><br><br><br><br><br><br><br><br><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br><br><br></div><pre class="language-js"><code>toolkit<span class="token punctuation">.</span><span class="token function">createApp</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  template<span class="token operator">:</span>
+    <span class="token string">'&lt;div id=&quot;example&quot;&gt;\
+      &lt;input $model=&quot;message&quot;&gt;\
+      &lt;p&gt;message: &quot;{{ message }}&quot;&lt;/p&gt;\
+      &lt;p&gt;reversed message: &quot;{{ reversedMessage }}&quot;&lt;/p&gt;\
+    &lt;/div&gt;'</span><span class="token punctuation">,</span>
+  <span class="token function-variable function">data</span><span class="token operator">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token punctuation">{</span>
+      message<span class="token operator">:</span> <span class="token string">'Hello'</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  computed<span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token function-variable function">reversedMessage</span><span class="token operator">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">return</span> <span class="token keyword">this</span><span class="token punctuation">.</span>message<span class="token punctuation">.</span><span class="token function">split</span><span class="token punctuation">(</span><span class="token string">''</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">reverse</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">join</span><span class="token punctuation">(</span><span class="token string">''</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  el<span class="token operator">:</span> <span class="token string">&quot;#app&quot;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div></div> <div class="docs-demo-plugin__display"><div class="docs-demo-plugin__app"></div></div></div></li></ul> <h3 id="methods"><a href="#methods" class="header-anchor">#</a> methods</h3> <ul><li><p><strong>类型</strong>：<code>{ [key: string]: Function }</code></p></li> <li><p><strong>详细</strong>：</p> <p>该选项用于定义实例的方法。</p> <p>这些方法将被混入到实例中。可以直接通过 <code>this</code> 调用这些方法，或者在模板的指令、数据绑定及事件绑定中使用，也可作为 prop 传递给子组件使用。</p> <p>注意：不应该使用箭头函数来定义这些方法 (例如 <code>plus: () =&gt; this.a++</code>)。理由是箭头函数绑定了父级作用域的上下文，所以 <code>this</code> 将不会按照期望指向实例，<code>this.a</code> 将是 <code>undefined</code>。</p></li> <li><p><strong>示例</strong>：</p> <div data-info="mydemo%20%5Bparser%5D%20%5Bheight%3D100%5D" data-type="parser" class="docs-demo-plugin__wrapper"><div class="docs-demo-plugin__code"><div class="language-js extra-class"><div class="highlight-lines"><br><br><br><br><br><br><br><br><br><br><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br><br><br></div><pre class="language-js"><code>toolkit<span class="token punctuation">.</span><span class="token function">createApp</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  template<span class="token operator">:</span>
+    <span class="token string">'&lt;button @click=&quot;plus&quot; style=&quot;padding:5px 20px;&quot;&gt;\
+      {{ double() }}\
+    &lt;/button&gt;'</span><span class="token punctuation">,</span>
+  <span class="token function-variable function">data</span><span class="token operator">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token punctuation">{</span>
+      a<span class="token operator">:</span> <span class="token number">1</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  methods<span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token function-variable function">plus</span><span class="token operator">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">$setData</span><span class="token punctuation">(</span><span class="token string">&quot;a&quot;</span><span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>a <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token function-variable function">double</span><span class="token operator">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">return</span> <span class="token keyword">this</span><span class="token punctuation">.</span>a <span class="token operator">*</span> <span class="token number">2</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  el<span class="token operator">:</span> <span class="token string">&quot;#app&quot;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div></div> <div class="docs-demo-plugin__display"><div class="docs-demo-plugin__app"></div></div></div></li></ul> <h3 id="watch"><a href="#watch" class="header-anchor">#</a> watch</h3> <ul><li><p><strong>类型</strong>：<code>{ [key: string]: string | Function | Object }</code></p></li> <li><p><strong>详细</strong>：</p> <p>该选项用于观察数据变化，并在变化时执行回调函数。</p> <p>可以观察 <code>data</code>、<code>props</code>、<code>computed</code> 内的数据。</p> <p>定义为一个对象，键是需要观察的数据，支持使用键路径观察对象或数组内部的数据，值是对应回调函数。值也可以是 <code>methods</code> 中的方法名，或者是包含选项的对象。</p> <p>你可以基于对象的语法使用以下选项：</p> <ul><li><p><code>handler</code>：<code>Function</code><br>
+数据变化后执行的回调函数，其得到的参数为数据的旧值和新值。</p></li> <li><p><code>immediate</code>：<code>Boolean</code><br>
+回调函数将会在侦听开始之后被立即调用。</p></li> <li><p><code>deep</code>：<code>Boolean</code><br>
+回调函数会在任何被侦听的对象的属性改变时被调用，不论其被嵌套多深。</p></li></ul></li> <li><p><strong>示例</strong>：</p> <div data-info="mydemo%20%5Bparser%5D%20%5Bhorizontal%5D%20%5Bheight%3D350%5D%20%5Bvconsole%5D%20%5Beditor%5D" data-type="parser" class="docs-demo-plugin__wrapper"><div class="docs-demo-plugin__code"><div class="language-js extra-class"><div class="highlight-lines"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br><div class="highlighted"> </div><br><br><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br><br><br><div class="highlighted"> </div><div class="highlighted"> </div><br><br><br><br><br></div><pre class="language-js"><code>toolkit<span class="token punctuation">.</span><span class="token function">createApp</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  template<span class="token operator">:</span>
+    <span class="token string">'&lt;p&gt;{{ a }}&lt;/p&gt;\
+    &lt;p&gt;{{ b }}&lt;/p&gt;\
+    &lt;p&gt;{{ c }}&lt;/p&gt;\
+    &lt;p&gt;{{ d }}&lt;/p&gt;\
+    使用下面的编辑器修改数据，看看效果'</span><span class="token punctuation">,</span>
+  <span class="token function-variable function">data</span><span class="token operator">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token punctuation">{</span>
+      a<span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+      b<span class="token operator">:</span> <span class="token number">2</span><span class="token punctuation">,</span>
+      c<span class="token operator">:</span> <span class="token number">3</span><span class="token punctuation">,</span>
+      d<span class="token operator">:</span> <span class="token punctuation">{</span>
+        e<span class="token operator">:</span> <span class="token punctuation">{</span>
+          f<span class="token operator">:</span> <span class="token number">5</span>
+        <span class="token punctuation">}</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  methods<span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token function-variable function">aPlus</span><span class="token operator">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">$setData</span><span class="token punctuation">(</span><span class="token string">&quot;a&quot;</span><span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>a <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">)</span>
+      <span class="token function">alert</span><span class="token punctuation">(</span><span class="token string">&quot;属性 a 的值加 1&quot;</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  watch<span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token function-variable function">a</span><span class="token operator">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">oldVal<span class="token punctuation">,</span> newVal</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token function">alert</span><span class="token punctuation">(</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">监听到属性 a 更新，旧值：</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>oldVal<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">，新值：</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>newVal<span class="token interpolation-punctuation punctuation">}</span></span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token comment">// 直接使用 methods 中的方法</span>
+    b<span class="token operator">:</span> <span class="token string">'aPlus'</span><span class="token punctuation">,</span>
+    <span class="token comment">// 回调函数将会在侦听开始之后被立即调用</span>
+    c<span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token function-variable function">handler</span><span class="token operator">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">oldVal<span class="token punctuation">,</span> newVal</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'侦听开始之后被立即调用'</span><span class="token punctuation">)</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      immediate<span class="token operator">:</span> <span class="token boolean">true</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token comment">// 侦听d.e，该回调会在被侦听的对象的任何属性改变时被调用，不论其被嵌套多深</span>
+    <span class="token string">'d.e'</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      handler<span class="token operator">:</span> <span class="token string">'aPlus'</span><span class="token punctuation">,</span>
+      deep<span class="token operator">:</span> <span class="token boolean">true</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  el<span class="token operator">:</span> <span class="token string">&quot;#app&quot;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div></div> <div class="docs-demo-plugin__display"><div class="docs-demo-plugin__app"></div></div></div><div class="custom-block tip"><p class="custom-block-title">提示</p> <p>框架内部会检测状态变更是否陷入<strong>死循环</strong>，当发现由一次状态变更引发的一系列状态变更超过 100 次，且循环变更执行超过 10 组时，会认为触发了<strong>死循环</strong>而报错并中断变更，报错信息会提示<strong>死循环</strong>的循环变更路径。</p> <p>在下面的示例中，当点击文本后，会触发状态 <code>count</code> 变更，然后 <code>computed</code> 的 <code>double</code> 和 <code>plus</code> 相继变更，最后 <code>watch</code> 中监听 <code>double</code> 的 hanlder 函数被调用后，再次触发 <code>count</code> 变更，形成了死循环。</p></div> <div data-info="mydemo%20%5Bparser%5D%20%5Bheight%3D80%5D" data-type="parser" class="docs-demo-plugin__wrapper"><div class="docs-demo-plugin__code"><div class="language-js extra-class"><pre class="language-js"><code>toolkit<span class="token punctuation">.</span><span class="token function">createApp</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  template<span class="token operator">:</span>
+    <span class="token string">'&lt;div @click=`$setData(&quot;count&quot;,0)`&gt;count:{{count}} double:{{double}} plus:{{plus}}&lt;/div&gt;'</span><span class="token punctuation">,</span>
+  <span class="token function-variable function">data</span><span class="token operator">:</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token punctuation">{</span>
+      count<span class="token operator">:</span><span class="token number">1</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  computed<span class="token operator">:</span><span class="token punctuation">{</span>
+    <span class="token string">&quot;double&quot;</span><span class="token operator">:</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+      <span class="token keyword">return</span> <span class="token keyword">this</span><span class="token punctuation">.</span>count<span class="token operator">*</span><span class="token number">2</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;plus&quot;</span><span class="token operator">:</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+      <span class="token keyword">return</span> <span class="token keyword">this</span><span class="token punctuation">.</span>double<span class="token operator">+</span><span class="token number">1</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  watch<span class="token operator">:</span><span class="token punctuation">{</span>
+    <span class="token string">&quot;double&quot;</span><span class="token operator">:</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">$setData</span><span class="token punctuation">(</span><span class="token string">&quot;count&quot;</span><span class="token punctuation">,</span><span class="token keyword">this</span><span class="token punctuation">.</span>count<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  el<span class="token operator">:</span><span class="token string">&quot;#app&quot;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div></div> <div class="docs-demo-plugin__display"><div class="docs-demo-plugin__app"></div></div></div></li></ul> <h3 id="emits"><a href="#emits" class="header-anchor">#</a> emits</h3> <ul><li><p><strong>类型</strong>：<code>Array&lt;string&gt; | Object</code></p></li> <li><p><strong>详细</strong>：</p> <p><code>emits</code> 用于声明该组件触发的自定义事件，这些事件<strong>不会</strong>被组件的根元素继承，也<strong>不会</strong>出现在 <code>$attrs</code> 中。</p> <p><code>emits</code> 可以是数组或对象。在对象语法中，每个属性的值可以为 null 或验证函数。验证函数将接收传递给 <code>$emit</code> 的事件参数（除第一个参数外的所有参数）。如果 <code>this.$emit('foo',1)</code> 被调用，foo 的相应验证函数将接收参数 1。验证函数应返回布尔值，以表示事件参数是否有效。</p> <p>没有在 <code>emits</code> 中声明的自定义事件，仍然可以使用 <code>$emit</code> 触发，但这些事件会出现在 <code>$attrs</code> 中，且<strong>可以</strong>被组件的根元素继承，。</p></li> <li><p><strong>示例</strong>：</p> <p>数组语法：</p> <div class="language-js extra-class"><div class="highlight-lines"><br><br><div class="highlighted"> </div><br><br><br><br><br><br></div><pre class="language-js"><code><span class="token keyword">function</span> <span class="token function">emits_demo_component</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token punctuation">{</span>
+    emits<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">&quot;check&quot;</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token function">mounted</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">$emit</span><span class="token punctuation">(</span><span class="token string">'check'</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>对象语法：</p> <div class="language-js extra-class"><div class="highlight-lines"><br><br><br><br><div class="highlighted"> </div><br><br><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br><br><br><br><br><br><br></div><pre class="language-js"><code><span class="token keyword">function</span> <span class="token function">emits_demo_component</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token punctuation">{</span>
+    emits<span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token comment">// 没有验证函数</span>
+      click<span class="token operator">:</span> <span class="token keyword">null</span><span class="token punctuation">,</span>
+
+      <span class="token comment">// 带有验证函数</span>
+      <span class="token function-variable function">submit</span><span class="token operator">:</span> <span class="token parameter">payload</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>payload<span class="token punctuation">.</span>email <span class="token operator">&amp;&amp;</span> payload<span class="token punctuation">.</span>password<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+          <span class="token keyword">return</span> <span class="token boolean">true</span>
+        <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+          console<span class="token punctuation">.</span><span class="token function">warn</span><span class="token punctuation">(</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">无效的 submit 事件参数</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span>
+          <span class="token keyword">return</span> <span class="token boolean">false</span>
+        <span class="token punctuation">}</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token function">mounted</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">$emit</span><span class="token punctuation">(</span><span class="token string">'submit'</span><span class="token punctuation">,</span> <span class="token punctuation">{</span> email<span class="token operator">:</span> <span class="token string">&quot;xxx&quot;</span><span class="token punctuation">,</span> password<span class="token operator">:</span> <span class="token string">&quot;xxx&quot;</span> <span class="token punctuation">}</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div></li></ul> <h3 id="store"><a href="#store" class="header-anchor">#</a> store</h3> <ul><li><p><strong>类型</strong>：<code>Store</code></p></li> <li><p><strong>详细</strong>：</p> <p>该选项用于定义要使用的外部状态管理实例 store。</p> <p>当依赖的 store 中的字段发生变化时，会执行更新。更多关于状态管理的信息，请查看<a href="/docs/store.html">状态管理</a></p></li></ul> <h2 id="资源"><a href="#资源" class="header-anchor">#</a> 资源</h2> <h3 id="mixins"><a href="#mixins" class="header-anchor">#</a> mixins</h3> <ul><li><p><strong>类型</strong>：<code>Array&lt;Object&gt;</code></p></li> <li><p><strong>详细</strong>：</p> <p><code>mixins</code> 选项接收一个混入对象的数组。这些混入对象可以像正常的组件一样包含选项，这些选项将会被合并到组件的选项中。</p> <p>当组件和混入对象含有同名选项时，这些选项将以恰当的方式进行“合并”。合并逻辑，如下：</p> <ul><li><code>data</code> - 数据对象在内部会进行<strong>浅层</strong>合并（只合并根级属性），并在发生冲突时以组件数据优先。</li> <li><code>props</code>、<code>computed</code>、<code>methods</code>、<code>emits</code> - 将合并为同一个对象，键名冲突时，值会以组件优先。</li> <li><code>watch</code> - 将合并为同一个对象，键名冲突时，值会被合并为数组。另外，混入对象的 handler 将在组件的 handler 之前调用。</li> <li>生命周期钩子 - 同名钩子函数将合并为一个数组，因此都将被调用。另外，混入对象的钩子将在组件自身钩子之前调用。</li> <li>其它 - 不会合并。</li></ul></li> <li><p><strong>示例</strong>：</p> <div data-info="mydemo%20%5Bparser%5D%20%5Bhorizontal%5D%20%5Bheight%3D110px%5D" data-type="parser" class="docs-demo-plugin__wrapper"><div class="docs-demo-plugin__code"><div class="language-js extra-class"><div class="highlight-lines"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><div class="highlighted"> </div><br><br><br><br><br><br><br><br><br><br><br><br></div><pre class="language-js"><code><span class="token keyword">var</span> mixin <span class="token operator">=</span> <span class="token punctuation">{</span>
+    <span class="token function-variable function">data</span><span class="token operator">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token punctuation">{</span>
+            title<span class="token operator">:</span> <span class="token string">&quot;title&quot;</span><span class="token punctuation">,</span>
+            name<span class="token operator">:</span> <span class="token string">&quot;mixin_name&quot;</span><span class="token punctuation">,</span>
+            user<span class="token operator">:</span> <span class="token punctuation">{</span>
+                name<span class="token operator">:</span> <span class="token string">&quot;John&quot;</span><span class="token punctuation">,</span>
+                age<span class="token operator">:</span> <span class="token number">16</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    methods<span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token function-variable function">upper</span><span class="token operator">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">val</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token keyword">return</span> val<span class="token punctuation">.</span><span class="token function">toUpperCase</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+toolkit<span class="token punctuation">.</span><span class="token function">createApp</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    template<span class="token operator">:</span>
+        <span class="token string">'&lt;div&gt;title: {{ upper(title) }}&lt;/div&gt;\
+        &lt;div&gt;name: {{ name }}&lt;/div&gt;\
+        &lt;div&gt;user: {{ user }}&lt;/div&gt;'</span><span class="token punctuation">,</span>
+    mixins<span class="token operator">:</span> <span class="token punctuation">[</span>mixin<span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token function-variable function">data</span><span class="token operator">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token punctuation">{</span>
+            name<span class="token operator">:</span> <span class="token string">&quot;name&quot;</span><span class="token punctuation">,</span>
+            user<span class="token operator">:</span><span class="token punctuation">{</span>
+              name<span class="token operator">:</span> <span class="token string">&quot;Tom&quot;</span><span class="token punctuation">,</span>
+              sex<span class="token operator">:</span> <span class="token string">&quot;man&quot;</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    el<span class="token operator">:</span> <span class="token string">&quot;#app&quot;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div></div> <div class="docs-demo-plugin__display"><div class="docs-demo-plugin__app"></div></div></div><p>如果混入对象也有 <code>mixins</code> 选项时，在合并时会进行递归合并。</p></li></ul> <h3 id="components"><a href="#components" class="header-anchor">#</a> components</h3> <ul><li><p><strong>类型</strong>：<code>{ [key: string]: Component }</code></p></li> <li><p><strong>详细</strong>：</p> <p>该选项用于定义要使用的局部组件。</p> <p><code>components</code> 对象的 key 会作为临时组件名称，在 <code>template</code> 中使用临时组件名称引用局部组件。更多关于组件的信息，请查看<a href="/docs/component.html">组件</a></p></li></ul> <h2 id="生命周期钩子"><a href="#生命周期钩子" class="header-anchor">#</a> 生命周期钩子</h2> <h3 id="beforemount"><a href="#beforemount" class="header-anchor">#</a> beforeMount</h3> <ul><li><p><strong>类型</strong>：<code>Function</code></p></li> <li><p><strong>详细</strong>：</p> <p>在实例的 DOM 被挂载前调用。</p></li></ul> <h3 id="mounted"><a href="#mounted" class="header-anchor">#</a> mounted</h3> <ul><li><p><strong>类型</strong>：<code>Function</code></p></li> <li><p><strong>详细</strong>：</p> <p>在实例的 DOM 被挂载后调用。可以在这个钩子执行依赖于实例的 DOM 的操作。</p> <p><code>mounted</code> <strong>不会</strong>保证所有的子组件也都被挂载完成。</p></li></ul> <h3 id="beforeupdate"><a href="#beforeupdate" class="header-anchor">#</a> beforeUpdate</h3> <ul><li><p><strong>类型</strong>：<code>Function</code></p></li> <li><p><strong>详细</strong>：</p> <p>在数据发生改变后，实例的 DOM 被更新之前被调用。</p></li></ul> <h3 id="updated"><a href="#updated" class="header-anchor">#</a> updated</h3> <ul><li><p><strong>类型</strong>：<code>Function</code></p></li> <li><p><strong>详细</strong>：</p> <p>在数据发生改变后，实例的 DOM 更新完毕之后调用。可以在这个钩子执行依赖于实例的 DOM 的操作。</p> <p><code>updated</code> <strong>不会</strong>保证所有的子组件也都被重新渲染完毕。</p> <div class="custom-block danger"><p class="custom-block-title">注意</p> <p><strong>不要</strong>在这个钩子执行<strong>无条件</strong>的变更数据操作，如：<code>$setData</code>，<code>$store.commit</code> 等，否则可能会导致死循环。</p></div></li></ul> <h3 id="beforeunmount"><a href="#beforeunmount" class="header-anchor">#</a> beforeUnmount</h3> <ul><li><p><strong>类型</strong>：<code>Function</code></p></li> <li><p><strong>详细</strong>：</p> <p>在实例销毁之前调用。在这一步，实例仍然完全可用。</p></li></ul> <h3 id="unmounted"><a href="#unmounted" class="header-anchor">#</a> unmounted</h3> <ul><li><p><strong>类型</strong>：<code>Function</code></p></li> <li><p><strong>详细</strong>：</p> <p>在实例销毁后调用。该钩子被调用后，实例的所有事件监听器被移除，所有的子组件也都被销毁。</p></li></ul> <h2 id="其它选项"><a href="#其它选项" class="header-anchor">#</a> 其它选项</h2> <h3 id="inheritattrs"><a href="#inheritattrs" class="header-anchor">#</a> inheritAttrs</h3> <ul><li><p><strong>类型</strong>：<code>Boolean</code></p></li> <li><p><strong>默认值</strong>：<code>true</code></p></li> <li><p><strong>详细</strong>：</p> <p>当组件接收到的某些属性或事件，没有在组件的 <code>props</code> 或 <code>emits</code> 中定义时，会被组件收集起来。常见的示例包括 <code>class</code>、<code>style</code> 和 <code>id</code> 属性。</p> <p>默认情况下，这些收集的属性或事件，将被根节点自动继承，例如，在 <code>&lt;datePicker&gt;</code> 组件的示例中：</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">function</span> <span class="token function">datePicker</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token punctuation">{</span>
+    template<span class="token operator">:</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">
+      &lt;div class=&quot;date-picker&quot;&gt;
+        &lt;input type=&quot;datetime-local&quot; /&gt;
+      &lt;/div&gt;
+    </span><span class="token template-punctuation string">`</span></span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>如果我们在使用 <code>&lt;datePicker&gt;</code> 组件时，添加 <code>data-status</code> 属性，由于没有在组件的 <code>props</code> 中定义，它将自动被根节点继承 (即 div.date-picker)。</p> <div class="language-html extra-class"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>datePicker</span> <span class="token attr-name">data-status</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>activated<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>datePicker</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token comment">&lt;!-- datePicker 组件渲染结果 --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>date-picker<span class="token punctuation">&quot;</span></span> <span class="token attr-name">data-status</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>activated<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>datetime-local<span class="token punctuation">&quot;</span></span> <span class="token punctuation">/&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><p>同样的规则也适用于事件监听器。</p> <p>如果你<strong>不</strong>希望组件的根节点自动继承它们，你可以设置 <code>inheritAttrs: false</code>。这时，你可以通过组件的 <code>$attrs</code> 属性访问它们。并可以使用 <code>$bind</code> 指令，把它们应用于其他节点。</p> <div class="language-js extra-class"><div class="highlight-lines"><br><br><br><br><br><br><br><div class="highlighted"> </div><br><br><br></div><pre class="language-js"><code><span class="token keyword">function</span> <span class="token function">datePicker</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> <span class="token punctuation">{</span>
+    template<span class="token operator">:</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">
+      &lt;div class=&quot;date-picker&quot;&gt;
+        &lt;input type=&quot;datetime-local&quot; $bind=&quot;$attrs&quot;/&gt;
+      &lt;/div&gt;
+    </span><span class="token template-punctuation string">`</span></span><span class="token punctuation">,</span>
+    inheritAttrs<span class="token operator">:</span> <span class="token boolean">false</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>现在 <code>data-status</code> 属性将应用于 input 元素！</p> <div class="language-html extra-class"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>datePicker</span> <span class="token attr-name">data-status</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>activated<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>datePicker</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token comment">&lt;!-- datePicker 组件渲染结果 --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>date-picker<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>datetime-local<span class="token punctuation">&quot;</span></span> <span class="token attr-name">data-status</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>activated<span class="token punctuation">&quot;</span></span> <span class="token punctuation">/&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><div class="custom-block warning"><p class="custom-block-title">注意</p> <p>在 Vue 3 中，若组件返回多个根节点，你需要使用 <code>v-bind=&quot;$attrs&quot;</code> 来显式声明 <code>$attrs</code> 绑定到哪个节点，否则 Vue 会发出运行时警告。</p> <p>但在本框架中，当返回多个根节点时，每个根节点都会自动继承，当你有明确要指定某个节点继承的需求时，可以使用 <code>$bind</code> 指令绑定 <code>$attrs</code> 到该节点。</p></div></li></ul> <h3 id="comments"><a href="#comments" class="header-anchor">#</a> comments</h3> <ul><li><p><strong>类型</strong>：<code>Boolean</code></p></li> <li><p><strong>默认值</strong>：<code>false</code></p></li> <li><p><strong>详细</strong>：</p> <p>当设为 <code>true</code> 时，将会保留且渲染 <code>template</code> 模板中的 HTML 注释。默认行为是舍弃它们。</p></li></ul> <h3 id="style"><a href="#style" class="header-anchor">#</a> style</h3> <ul><li><p><strong>类型</strong>：<code>Object</code></p></li> <li><p><strong>详细</strong>：</p> <p><code>style</code> 属性通过使用一个样式对象来描述组件的私有样式。</p> <p><strong>选择器样式：</strong></p> <p>在样式对象中，使用 css 选择器作为键 ，值为一个对象，对象包含作用于该选择器的样式属性：</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token punctuation">{</span>
+  style<span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token string">&quot;.red&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token string">&quot;color&quot;</span><span class="token operator">:</span> <span class="token string">&quot;red&quot;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>支持选择器嵌套语法。选择器嵌套指的是在一个选择器中嵌套另一个选择器来实现继承，从而增强了样式的结构性和可读性。在选择器嵌套中，可以使用 “&amp;” 表示父元素选择器：</p> <div data-info="mydemo%20%5Bparser%5D%20%5Bheight%3D180%5D" data-type="parser" class="docs-demo-plugin__wrapper"><div class="docs-demo-plugin__code"><div class="language-js extra-class"><pre class="language-js"><code>toolkit<span class="token punctuation">.</span><span class="token function">createApp</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  template<span class="token operator">:</span>
+    <span class="token string">'&lt;p class=&quot;red&quot;&gt;红色字体&lt;/p&gt;\
+    &lt;div class=&quot;outter&quot;&gt;\
+      &lt;div class=&quot;inner&quot;&gt;灰色背景&lt;/div&gt;\
+    &lt;/div&gt;\
+    &lt;div class=&quot;outter bg-green&quot;&gt;\
+      &lt;div class=&quot;inner&quot;&gt;绿色背景&lt;/div&gt;\
+    &lt;/div&gt;'</span><span class="token punctuation">,</span>
+  el<span class="token operator">:</span> <span class="token string">&quot;#app&quot;</span><span class="token punctuation">,</span>
+  style<span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token string">&quot;.red&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token comment">//此处编译为 .red {color:red;}</span>
+      <span class="token string">&quot;color&quot;</span><span class="token operator">:</span> <span class="token string">&quot;red&quot;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;.outter&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token comment">//此处编译为 .outer {background-color:grey;}</span>
+      <span class="token string">&quot;background-color&quot;</span><span class="token operator">:</span> <span class="token string">&quot;grey&quot;</span><span class="token punctuation">,</span>
+      
+      <span class="token string">&quot;.inner&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token comment">//此处嵌套语法编译为 .outer .inner {text-align:center;}</span>
+        <span class="token string">&quot;text-align&quot;</span><span class="token operator">:</span> <span class="token string">&quot;center&quot;</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;&amp;.bg-green&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token comment">//此处嵌套语法编译为 .outer.bg-green {background-color:green;}</span>
+        <span class="token string">&quot;background-color&quot;</span><span class="token operator">:</span> <span class="token string">&quot;green&quot;</span><span class="token punctuation">,</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;&amp;:before&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span> <span class="token comment">//此处嵌套语法编译为 .outter:before {content:&quot;before&quot;;font-size:16px;}</span>
+        <span class="token string">&quot;content&quot;</span><span class="token operator">:</span> <span class="token string">&quot;before&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;font-size&quot;</span><span class="token operator">:</span> <span class="token string">&quot;16px&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;text-align&quot;</span><span class="token operator">:</span> <span class="token string">&quot;center&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;display&quot;</span><span class="token operator">:</span> <span class="token string">&quot;block&quot;</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div></div> <div class="docs-demo-plugin__display"><div class="docs-demo-plugin__app"></div></div></div><p><strong>动画 @keyframes：</strong></p> <p>在样式对象中，使用 <code>@keyframes</code> 为键，值为一个对象，该对象可以包含多个动画定义：</p> <div data-info="mydemo%20%5Bparser%5D%20%5Bhorizontal%5D%20%5Bheight%3D230%5D" data-type="parser" class="docs-demo-plugin__wrapper"><div class="docs-demo-plugin__code"><div class="language-js extra-class"><div class="highlight-lines"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><div class="highlighted"> </div><br><br><br><br></div><pre class="language-js"><code>toolkit<span class="token punctuation">.</span><span class="token function">createApp</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  template<span class="token operator">:</span>
+    <span class="token string">'&lt;div&gt;\
+      &lt;button @click=`$setData(&quot;show&quot;,!show)`&gt;Toggle show&lt;/button&gt;\
+      &lt;transition name=&quot;bounce&quot;&gt;\
+        &lt;p $if=&quot;show&quot;&gt;\
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris facilisis enim libero, at lacinia diam fermentum id. Pellentesque habitant morbi tristique senectus et netus.\
+        &lt;/p&gt;\
+      &lt;/transition&gt;\
+    &lt;/div&gt;'</span><span class="token punctuation">,</span>
+  <span class="token function-variable function">data</span><span class="token operator">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token punctuation">{</span>
+      show<span class="token operator">:</span> <span class="token boolean">true</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  style<span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token string">&quot;.bounce-enter-active&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token string">&quot;animation&quot;</span><span class="token operator">:</span> <span class="token string">&quot;bounce-in .5s&quot;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;.bounce-leave-active&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token string">&quot;animation&quot;</span><span class="token operator">:</span> <span class="token string">&quot;bounce-out 1s&quot;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token string">&quot;@keyframes&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token string">&quot;bounce-in&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token string">&quot;0%&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+          <span class="token string">&quot;transform&quot;</span><span class="token operator">:</span> <span class="token string">&quot;scale(0)&quot;</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;50%&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+          <span class="token string">&quot;transform&quot;</span><span class="token operator">:</span> <span class="token string">&quot;scale(1.5)&quot;</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;100%&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+          <span class="token string">&quot;transform&quot;</span><span class="token operator">:</span> <span class="token string">&quot;scale(1)&quot;</span>
+        <span class="token punctuation">}</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token string">&quot;bounce-out&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token string">&quot;0%&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+          <span class="token string">&quot;transform&quot;</span><span class="token operator">:</span> <span class="token string">&quot;translateX(0) scale(1)&quot;</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;30%&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+          <span class="token string">&quot;transform&quot;</span><span class="token operator">:</span> <span class="token string">&quot;translateX(0) scale(1.5)&quot;</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;100%&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+          <span class="token string">&quot;transform&quot;</span><span class="token operator">:</span> <span class="token string">&quot;translateX(100%) scale(0)&quot;</span>
+        <span class="token punctuation">}</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  el<span class="token operator">:</span> <span class="token string">&quot;#app&quot;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div></div> <div class="docs-demo-plugin__display"><div class="docs-demo-plugin__app"></div></div></div><p><strong>暂时只支持以上两类样式相关的写法，将来会支持更多...</strong></p></li></ul></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/docs/" class="prev router-link-active">
+        介绍
+      </a></span> <span class="next"><a href="/docs/template.html">
+        模板
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/docs/assets/js/app.bf9abde5.js" defer></script><script src="/docs/assets/js/2.7081bd21.js" defer></script><script src="/docs/assets/js/10.17413e17.js" defer></script>
+  </body>
+</html>
